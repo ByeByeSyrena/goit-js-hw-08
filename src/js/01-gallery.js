@@ -4,8 +4,6 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-console.log(galleryItems);
-
 const ulEl = document.querySelector(".gallery");
 
 const liEls = galleryItems
@@ -28,5 +26,3 @@ var lightbox = new SimpleLightbox('.gallery a', {
 captionsData: 'alt',
 captionDelay: 250,
 });
-
-console.dir(liEls);
